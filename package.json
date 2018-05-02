@@ -1,0 +1,60 @@
+{
+  "name": "webpack-qs-hmr-demo",
+  "version": "1.0.0",
+  "description": "webpack+qs+vue+ssr+hmr",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@code.byted.org:toutiao-fe/webpack-qs-hmr-demo"
+  },
+  "keywords": [
+    "webapck",
+    "vue",
+    "hmr",
+    "ssr"
+  ],
+  "author": "liuzhao.bupt",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^8.3.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.1.2",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "eslint": "^4.15.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-html": "^4.0.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.0.1",
+    "less-loader": "^4.1.0",
+    "mini-css-extract-plugin": "^0.4.0",
+    "style-loader": "^0.20.3",
+    "url-loader": "^1.0.1",
+    "vue-loader": "^15.0.4",
+    "vue-template-compiler": "2.5.13",
+    "webpack": "^4.4.1",
+    "webpack-merge": "^4.1.2",
+    "webpack-node-externals": "^1.7.2",
+    "webpack-dev-middleware": "^3.1.2",
+    "webpack-hot-middleware": "^2.22.0"
+  },
+  "dependencies": {
+    "postcss-loader": "^2.1.4",
+    "raw-loader": "^0.5.1",
+    "vue": "2.5.13",
+    "vue-server-renderer": "2.5.13",
+    "vue-ssr-webpack-plugin": "^3.0.0"
+  }
+}

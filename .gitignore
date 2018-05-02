@@ -1,0 +1,12 @@
+.DS_Store
+node_modules/
+_dev_build/
+_pre_build/
+output_f/
+output/
+resource_f/
+npm-debug.log
+/building
+/dist/
+.vscode
+.idea/
